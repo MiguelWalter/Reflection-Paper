@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Privacy and Cybercrime Reflection</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #600404;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #b7a807;
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <div class="container" id="container"></div>
+
+    <py-script>
+        from js import document
+        
+        content = """
+        <h1>Reflection</h1>
+        <p>
+            My thoughts on the event are that it was great. the place where the event has taken place to was a good spot. the seats are not close together making the place breathable and the distance of the people in the front and at the back was good giving the people who is sitting at the back have leg space. and the distance of the person you’re sitting next to is also good you are not bumping at each other’s arms when you are sitting. and the setup of the fan is very pleasant it is hitting where I sit and it also blows cool air and not hot once. which is also nice that the place is not hot where you will sweat the entire time.
+        </p>
+        <p>
+            It also nice that the students are allowed to go out and get foods and drinks so they won’t get hungry or thirsty. 
+            The speaker on the stage explained the topic about Data Privacy and Awareness Campaign very well. he explained the content of the topic very clear which made it easy to understand what he is talking about.  he is not just reading the slides on the projector but saying it with his own word and creating examples that can be understand easily. One of the things that stick to me is that how creative and also dangerous people can be in the net and even if someone is trying their best to stay safe for their information not be taken there will still be a chance for them to let their guard down for example some on posted a photo of themself in front of their house in the net.
+        </p>
+        <p>
+            Now people who have seen that photo can take his photo and use it for scamming or someone could sell his information where he lives to someone in the internet. And considering in this day and age where people most likely have access to smart phones and the internet. Most of them mainly old and young people are not aware of how dangerous the net is
+        </p>
+        <p>
+            And the speaker made me realize even though I already have experience on the net where I could know if something could be safe or could be harmful for my computer or phone it shows that I still have a long way ahead of me and it will never stop. Because as I gain more knowledge on how to keep my information safe the technology is also getting more advance.
+        </p>
+        <p>
+            Over all the event was good it made me realize that just one misstep or mistake in the net could cost me something very big and that people are trying to uphold the law on the net so that people can’t abuse it for the people’s safety. but it has somethings that could be improved one of them is the projector it was too small where I could not read some of the slides and the speakers are not clear and sometimes hard to understand.
+        </p>
+
+        """
+        
+        # Insert content into the container
+        container = document.getElementById("container")
+        container.innerHTML = content
+        
+       
+    </py-script>
+</body>
+</html>
